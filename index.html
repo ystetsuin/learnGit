@@ -32,13 +32,27 @@
             <p><code>git branch</code> - show all branches</p>
         </li>
         <li>
-            <p><code>git branch dev1</code> - create new branch "dev1"</p>
+            <p><code>git branch fix1</code> - create new branch "fix1"</p>
         </li>
         <li>
-            <p><code>git checkout dev1</code> - switch to branch dev1</p>
+            <p><code>git checkout fix1</code> - switch to branch fix1</p>
         </li>
         <li>
-            <p><code>git checkout -b dev2</code> - create and switch to branch dev1</p>
+            <p><code>git checkout -b fix2</code> - create and switch to branch fix2</p>
+        </li>
+    </ol>
+
+    <h2>Merge our branches</h2>
+
+    <ol>
+        <li>
+            <p><code>git checkout master</code></p>
+        </li>
+        <li>
+            <p><code>git merge fix1</code></p>
+        </li>
+        <li>
+            <p><code>git branch -d fix1</code></p>
         </li>
     </ol>
     
