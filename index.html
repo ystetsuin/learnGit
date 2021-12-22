@@ -12,50 +12,49 @@
 
     <h2>Cloning project from remote repo to local</h2>
     <ol>
-        <li><p><code>git init</code></p></li>
-        <li><p><code>git clone repo.git</code></p></li>
-        <li><p>Do some changes</p></li>
+        <li><code>git init</code></li>
+        <li><code>git clone repo.git</code></li>
+        <li>Do some changes</li>
     </ol>
     
     <h2>Adding new code to remote repo</h2>
 
     <ol>
-        <li><p><code>git add .</code></p></li>
-        <li><p><code>git commit -m "message"</code></p></li>
-        <li><p><code>git commit push</code></p></li>
+        <li><code>git add .</code></li>
+        <li><code>git commit -m "message"</code></li>
+        <li><code>git commit push</code></li>
     </ol>
 
     <h2>Branches and Checkout</h2>
 
     <ol>
-        <li>
-            <p><code>git branch</code> - show all branches</p>
-        </li>
-        <li>
-            <p><code>git branch fix1</code> - create new branch "fix1"</p>
-        </li>
-        <li>
-            <p><code>git checkout fix1</code> - switch to branch fix1</p>
-        </li>
-        <li>
-            <p><code>git checkout -b fix2</code> - create and switch to branch fix2</p>
-        </li>
+        <li><code>git branch</code> - show all branches</li>
+        <li><code>git branch fix1</code> - create new branch "fix1"</li>
+        <li><code>git checkout fix1</code> - switch to branch fix1</li>
+        <li><code>git checkout -b fix2</code> - create and switch to branch fix2</li>
     </ol>
 
     <h2>Merge our branches</h2>
 
     <ol>
-        <li>
-            <p><code>git checkout master</code></p>
-        </li>
-        <li>
-            <p><code>git merge fix1</code></p>
-        </li>
-        <li>
-            <p><code>git branch -d fix1</code></p>
-        </li>
+        <li><code>git checkout master</code> - switch to master</li>
+        <li><code>git merge fix1</code> - add code from fix1 to master</li>
+        <li><code>git branch -d fix1</code> - delete branch fix1</li>
     </ol>
+
+    <h2>Get up to date code</h2>
+    <ol>
+        <li><code>git fetch</code></li>
+        <li><code></code></li>
+    </ol>       
     
+    <h2>Просмотр изменений</h2>
     
+    <ol>
+        <li><code>git diff</code> - покажет, что именно изменилось в файле: красным — удаленное, зеленым — добавленное</li>
+        <li><code>git log</code> - покажет всю историю коммитов этого репозитория, если она есть</li>
+        <li><code></code></li>
+    </ol>
+
 </body>
 </html>
