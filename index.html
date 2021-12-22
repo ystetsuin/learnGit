@@ -28,24 +28,24 @@
     <h2>Branches and Checkout</h2>
 
     <ol>
-        <li><code>git branch</code> - show all branches</li>
-        <li><code>git branch fix1</code> - create new branch "fix1"</li>
-        <li><code>git checkout fix1</code> - switch to branch fix1</li>
-        <li><code>git checkout -b fix2</code> - create and switch to branch fix2</li>
+        <li><code>git branch</code> - показывает все ветки</li>
+        <li><code>git branch fix1</code> - создает ветку "fix1"</li>
+        <li><code>git branch -d fix1</code> - удаляет ветку "fix1"</li>
+        <li><code>git checkout fix1</code> - переключает на ветку fix1</li>
+        <li><code>git checkout master</code> - переключает на ветку master</li>
+        <li><code>git checkout -b fix2</code> - создает и переключает на ветку fix2</li>
+        <li><code>git checkout HASH</code> - переносит ХЕАД на указанный ХЭШ</li>
     </ol>
 
-    <h2>Merge our branches</h2>
-
+    <h2>Merge</h2>
     <ol>
-        <li><code>git checkout master</code> - switch to master</li>
         <li><code>git merge fix1</code> - add code from fix1 to master</li>
-        <li><code>git branch -d fix1</code> - delete branch fix1</li>
     </ol>
 
     <h2>Get up to date code</h2>
     <ol>
         <li><code>git fetch</code></li>
-        <li><code></code></li>
+        <li><code>git pull</code></li>
     </ol>       
     
     <h2>Просмотр изменений</h2>
@@ -53,7 +53,7 @@
     <ol>
         <li><code>git diff</code> - покажет, что именно изменилось в файле: красным — удаленное, зеленым — добавленное</li>
         <li><code>git log</code> - покажет всю историю коммитов этого репозитория, если она есть</li>
-        <li><code></code></li>
+        <li><code>git show HASH</code> - покажет какие изменения были внесены в определенном коммите</li>
     </ol>
 
 </body>
